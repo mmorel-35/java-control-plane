@@ -30,7 +30,7 @@
         <grpc.version>1.48.1</grpc.version>
         <guava.version>31.1-android</guava.version><!-- Keep the Guava version in sync with grpc-java -->
         <junit.version>4.13.2</junit.version>
-        <protobuf.version>3.21.5</protobuf.version><!-- Keep the Protobuf version in sync with grpc-java -->
+        <protobuf.version>3.25.2</protobuf.version><!-- Keep the Protobuf version in sync with grpc-java -->
         <rest-assured.version>5.4.0</rest-assured.version>
         <slf4j.version>1.7.26</slf4j.version>
         <testcontainers.version>1.19.3</testcontainers.version>
