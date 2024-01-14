@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+env:
+  # Customize the JVM maximum heap limit
+  MAVEN_OPTS: -Xms512m -Xmx1024m
+
 jobs:
   build:
     runs-on: ubuntu-latest
