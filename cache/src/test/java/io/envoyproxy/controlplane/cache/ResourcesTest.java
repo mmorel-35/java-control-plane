@@ -95,10 +95,10 @@ public class ResourcesTest {
             .put((Collection) ImmutableList.of(clusterWithServiceName), ImmutableSet.of(clusterServiceName))
             .put((Collection) ImmutableList.of(ENDPOINT), ImmutableSet.of())
             .put((Collection) ImmutableList.of(LISTENER), ImmutableSet.of(ROUTE_NAME))
-            .put((Collection)ImmutableList.of(ROUTE), ImmutableSet.of())
+            .put((Collection) ImmutableList.of(ROUTE), ImmutableSet.of())
             .put(
                 (Collection) ImmutableList.of(CLUSTER, ENDPOINT, LISTENER, ROUTE),
-                (Collection) ImmutableSet.of(CLUSTER_NAME, ROUTE_NAME))
+                ImmutableSet.of(CLUSTER_NAME, ROUTE_NAME))
             .build();
 
     cases.forEach(
